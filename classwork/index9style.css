@@ -1,0 +1,85 @@
+.header {
+    background: #ccc;
+    text-align: center;
+    font-size: 30px;
+    padding: 1px 10px;
+    color:rgb(32, 31, 31);
+}
+
+.section{
+    float: left;
+    background:#666;
+    color: aliceblue;
+    width: 33.33%;
+    height: 70px;
+    box-sizing: border-box;
+    margin-top: 15px;
+}
+
+.section1{
+    float: left;
+    background: #888;
+    color: aliceblue;
+    width: 33.33%;
+    height: 70px;
+    box-sizing: border-box;
+    margin-top: 15px;
+}
+
+.align {
+    text-align: center;
+    font-size: 20px;
+}
+
+.A{
+    width: 100%;
+    overflow: auto;
+    clear: both;
+    background: #eee;
+}
+
+.A::after {
+    content: "salam";
+    clear: both;
+    display: table;
+    float: right;
+  }
+
+  .Asection {
+      float: right;
+      padding-right: 400px;
+      font-size: 20px;
+  }
+
+.B {
+    background: #fff;
+    float: left;
+    width: 20%;
+    padding: 100px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.aside {
+    text-align: center;
+}
+
+.C {
+    height: 70px;
+    padding: 2px;
+    margin-top: 70px;
+    background: #6ea3da;
+}
+
+.Csection {
+    float: right;
+    padding-right: 420px;
+    font-size: 20px;
+}
+
+.footer {
+    background: #ccc;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+}
